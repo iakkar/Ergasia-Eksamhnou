@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #119da4;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: #119da4;
+    border-bottom: 2px ridge #19647e;
+}
+
+.divLogoButton {
+    width: 25%;
+    flex-grow: 1;
+}
+
+.logoButton {
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.menuTitle {
+    width: 50%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menuTitle > h2 > i {
+    font-size: large;
+}
+
+.navBar {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navButtons {
+    padding: 3px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin: 0 10px;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.navButtons:hover {
+    text-decoration-line: underline;
+}
+
+.smallNavBar {
+    padding: 4px;
+    width: 50px;
+    display: none;
+}
+
+.mobile-container {
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #19647e;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: black;
+    text-decoration: none;
+}
+
+.topnav a.icon {
+    margin-left: auto;
+    padding: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}

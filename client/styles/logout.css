@@ -1,0 +1,17 @@
+.logoutDiv {
+    color: #ffc857;
+    text-align: center;
+    background-color: #119da4;
+    padding: 15px;
+}
+
+.msg {
+    color: #ffc857;
+    height: 250px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f2041;
+    border: 2px solid black;
+    border-radius: 15px;
+}

@@ -1,0 +1,41 @@
+.loginDiv {
+    color: white;
+    text-align: center;
+    background-color: #119da4;
+    padding: 15px;
+}
+
+#loginForm {
+    display: block;
+    height: 250px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f2041;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#registerForm {
+    display: none;
+    height: 250px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f2041;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+input {
+    border-radius: 8px;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #ffc857;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 5px;
+}
